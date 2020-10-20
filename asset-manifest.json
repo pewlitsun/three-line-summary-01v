@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/three-line-summary-01v.git/static/css/main.68287f98.chunk.css",
-    "main.js": "/three-line-summary-01v.git/static/js/main.826ca6a6.chunk.js",
-    "main.js.map": "/three-line-summary-01v.git/static/js/main.826ca6a6.chunk.js.map",
-    "runtime-main.js": "/three-line-summary-01v.git/static/js/runtime-main.2fb025e8.js",
-    "runtime-main.js.map": "/three-line-summary-01v.git/static/js/runtime-main.2fb025e8.js.map",
-    "static/js/2.29786291.chunk.js": "/three-line-summary-01v.git/static/js/2.29786291.chunk.js",
-    "static/js/2.29786291.chunk.js.map": "/three-line-summary-01v.git/static/js/2.29786291.chunk.js.map",
-    "index.html": "/three-line-summary-01v.git/index.html",
-    "precache-manifest.e9cfb05cd66d3f547acb996304d0b821.js": "/three-line-summary-01v.git/precache-manifest.e9cfb05cd66d3f547acb996304d0b821.js",
-    "service-worker.js": "/three-line-summary-01v.git/service-worker.js",
-    "static/css/main.68287f98.chunk.css.map": "/three-line-summary-01v.git/static/css/main.68287f98.chunk.css.map",
-    "static/js/2.29786291.chunk.js.LICENSE.txt": "/three-line-summary-01v.git/static/js/2.29786291.chunk.js.LICENSE.txt"
+    "main.css": "/three-line-summary-01v/static/css/main.68287f98.chunk.css",
+    "main.js": "/three-line-summary-01v/static/js/main.826ca6a6.chunk.js",
+    "main.js.map": "/three-line-summary-01v/static/js/main.826ca6a6.chunk.js.map",
+    "runtime-main.js": "/three-line-summary-01v/static/js/runtime-main.f949e394.js",
+    "runtime-main.js.map": "/three-line-summary-01v/static/js/runtime-main.f949e394.js.map",
+    "static/js/2.29786291.chunk.js": "/three-line-summary-01v/static/js/2.29786291.chunk.js",
+    "static/js/2.29786291.chunk.js.map": "/three-line-summary-01v/static/js/2.29786291.chunk.js.map",
+    "index.html": "/three-line-summary-01v/index.html",
+    "precache-manifest.16646e80b1d388df763470b461481561.js": "/three-line-summary-01v/precache-manifest.16646e80b1d388df763470b461481561.js",
+    "service-worker.js": "/three-line-summary-01v/service-worker.js",
+    "static/css/main.68287f98.chunk.css.map": "/three-line-summary-01v/static/css/main.68287f98.chunk.css.map",
+    "static/js/2.29786291.chunk.js.LICENSE.txt": "/three-line-summary-01v/static/js/2.29786291.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2fb025e8.js",
+    "static/js/runtime-main.f949e394.js",
     "static/js/2.29786291.chunk.js",
     "static/css/main.68287f98.chunk.css",
     "static/js/main.826ca6a6.chunk.js"
