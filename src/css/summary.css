@@ -1,0 +1,29 @@
+.summaryset_div{
+    margin-top: 25%;
+}
+
+.smr_div{
+    margin: 6px;
+    text-align: center;
+}
+
+.smr_summary{
+    background: rgb(239 239 239 / 75%);
+    display: inline-block;
+    width: 30%;
+    margin: 0px;
+    padding: 6px 18px 13px 18px;
+    border-radius: 6px;
+}
+
+.font_sans{
+    font-size: 1em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+}
+
+.font_serif{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 100;
+    font-size: 1em;
+}
