@@ -10,6 +10,7 @@ const Summary = ({summaryObj}) => {
             thisSmr.querySelector('.smr_buttonSet').style.display='';
         }else{
             thisSmr.querySelector('.smr_buttonSet').style.display='none';
+            textInputToggle(true)
         }
         setShowBtn((prev) => !prev)
     }
@@ -19,13 +20,21 @@ const Summary = ({summaryObj}) => {
     }
     
     const onEditButtonClick = (event) =>{
-        event.stopPropagation();
+        event.stopPropagation();   
+        textInputToggle(false)
+    }
 
-        thisSmr.querySelector('.smr_editInput').style.display='';
-        thisSmr.querySelector('.smr_editInput').value=
-        thisSmr.querySelector('.smr_summary').innerText;
-        // thisSmr.querySelector('.smr_summary').innerText=''
-
+    const textInputToggle = (toText)=>{
+        const smrInput = thisSmr.querySelector('.smr_editInput');
+        const smrText = thisSmr.querySelector('.smr_text');
+        if(toText){
+            smrInput.style.display='none';
+            smrText.innerText=smrInput.value;
+        }else{
+            smrInput.style.display='';
+            smrInput.value=smrText.innerText;
+            smrText.innerText=''
+        }
     }
 
     useEffect(()=>{
@@ -38,13 +47,10 @@ const Summary = ({summaryObj}) => {
                 <span className='smr_addSummaryButton'onClick={onAddButtonClick}></span>
                 <span className='smr_editButton'onClick={onEditButtonClick}></span>
             </span>
-            {/* <span className='smr_summarySet'> */}
-            <h5 className='smr_summary font_sans'>
-                {summaryObj.contents}
-                <input className='smr_editInput font_sans'/>
-            </h5>
-            {/* </span> */}
-
+            <span className='smr_summary font_sans'>
+                <h5 className='smr_text'>{summaryObj.contents}</h5>
+                <input className='smr_editInput font_sans' onClick={event=>{event.stopPropagation();}}/>
+            </span>
         </div>
     )
 }
