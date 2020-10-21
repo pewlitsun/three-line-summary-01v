@@ -1,20 +1,61 @@
 .summaryset_div{
     margin-top: 25%;
 }
+*{margin: 0px;}
 
-.smr_div{
-    margin: 6px;
+.smr_summarySet{
+    text-align: center;
+    margin: 11px 10px;
+    background: rgb(239 239 239 / 75%);
+    border-radius: 6px;
+    padding: 6px 18px 13px 18px;
+    width: 40%;
+    display: inline-block;
+}
+
+@media ( max-width: 700px ) {
+    .smr_summarySet { 
+        width: 90%; 
+    }
+}
+.smr_summary{
+    display: inline-block;
+}
+
+.smr_editInput{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: rgb(255 255 255 / 0%);
     text-align: center;
 }
 
-.smr_summary{
-    background: rgb(239 239 239 / 75%);
-    display: inline-block;
-    width: 30%;
-    margin: 0px;
-    padding: 6px 18px 13px 18px;
-    border-radius: 6px;
+.smr_editButton{
+    width: 15px;
+    height: 15px;
+    background: blue;
+    /* display: inline-block; */
+    float: right;
+    margin-right: 5px;
 }
+
+.smr_addSummaryButton{
+    width: 15px;
+    height: 15px;
+    background: red;
+    /* display: inline-block; */
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
 
 .font_sans{
     font-size: 1em;
