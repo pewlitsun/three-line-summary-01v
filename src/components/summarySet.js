@@ -20,9 +20,7 @@ function SummarySet(){
     }
 
     useEffect(()=>{
-        document.querySelectorAll('.smr_editInput').forEach(v=>{v.style.display='none'})
         document.querySelectorAll('.smr_buttonSet').forEach(v=>{v.style.display='none'})
-
     })
 
     return(
